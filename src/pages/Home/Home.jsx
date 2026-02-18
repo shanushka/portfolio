@@ -70,7 +70,7 @@ function Home() {
   {
     var link = document.createElement("a");
     link.download = name;
-    link.href = "/Resume.pdf";
+    link.href = "/portfolio/Resume.pdf";
     link.click();
   }
 
@@ -144,7 +144,7 @@ function Home() {
                 spinning.id === "skills" ? `spinning-zoom ${spinning.phase}` : ""
               }`}
             >
-              <img className="thumbpin" src="/Logo/thumb-tack.png"/>
+              <img className="thumbpin" src="/portfolio/Logo/thumb-tack.png"/>
               <div className="box-content">Skills</div>
             </div>
 
@@ -154,7 +154,7 @@ function Home() {
                 spinning.id === "experience" ? `spinning-zoom ${spinning.phase}` : ""
               }`}
             >
-              <img className="thumbpin" src="/Logo/thumb-tack.png"/>
+              <img className="thumbpin" src="/portfolio/Logo/thumb-tack.png"/>
               <div className="box-content">Experience</div>
             </div>
 
@@ -164,7 +164,7 @@ function Home() {
                 spinning.id === "project" ? `spinning-zoom ${spinning.phase}` : ""
               }`}
             >
-              <img className="thumbpin" src="/Logo/thumb-tack.png"/>
+              <img className="thumbpin" src="/portfolio/Logo/thumb-tack.png"/>
               <div className="box-content">Personal Projects</div>
             </div>
             <div
@@ -173,7 +173,7 @@ function Home() {
                 spinning.id === "education" ? `spinning-zoom ${spinning.phase}` : ""
               }`}
             >
-              <img className="thumbpin" src="/Logo/thumb-tack.png"/>
+              <img className="thumbpin" src="/portfolio/Logo/thumb-tack.png"/>
               <div className="box-content">Education</div>
             </div>
           </div>

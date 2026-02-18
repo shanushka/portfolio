@@ -7,28 +7,28 @@ body {
 
 @font-face {
   font-family: "magazineLetter";
-  src: url("/fonts/MagazineLetterByBrntlbrnl-Regular.ttf") format("truetype");
+  src: url("/portfolio/fonts/MagazineLetterByBrntlbrnl-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "lunch";
-  src: url("/fonts/LUNCH.TTF") format("truetype");
+  src: url("/portfolio/fonts/LUNCH.TTF") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Playfair Display";
-  src: url("/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  src: url("/portfolio/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Playfair Display Bold";
-  src: url("/fonts/PlayfairDisplay-Black.ttf") format("truetype");
+  src: url("/portfolio/fonts/PlayfairDisplay-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -152,7 +152,7 @@ body {
 }
 
 .education-section {
-  background-image: url("/flower.png");
+  background-image: url("/portfolio/flower.png");
   background-position: center;
   background-size: 55%;
 }
