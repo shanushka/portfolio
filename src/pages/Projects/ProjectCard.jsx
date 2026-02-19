@@ -1,10 +1,12 @@
+import {asset} from "../../utils/path";
+
 function ProjectCard(props) {
 
     return (
         <div className="project-card-container" id="section-projects" onClick={() => window.open(props.project.demoUrl, "_blank")} >
 
             <div className="project-card-wrapper">
-                <img src={props.project.imageUrl}/>
+                <img src={asset(props.project.imageUrl)}/>
             </div>
             <div className="project-card-content">
             <div className="project-card-title">{props.project.title}</div>

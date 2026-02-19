@@ -103,7 +103,7 @@
     "projects": [
       {
         "title": "Pokemon Catcher",
-        "imageUrl": "/portfolio/pokemon.png",
+        "imageUrl": "pokemon.png",
         "demoUrl": "https://shanushka.github.io/pokemon/",
         "githubUrl": "https://github.com/shanushka/pokemon",
         "technologies": ["Vanilla Javascript", "Html", "CSS", "2D Grid Map"],
@@ -115,7 +115,7 @@
       },
       {
         "title": "Preprocessing Lyric Embeddings",
-        "imageUrl": "/portfolio/genreClassification.png",
+        "imageUrl": "genreClassification.png",
         "demoUrl": "https://github.com/shanushka/GenreClassification/blob/main/Filtered-Classification-word2vec.ipynb",
         "githubUrl": "hhttps://github.com/shanushka/GenreClassification/tree/main",
         "technologies": ["Python", "Machine Learning", "Numpy", "Panda"],
@@ -129,7 +129,7 @@
       },
       {
         "title": "Flappy Bird",
-        "imageUrl": "/portfolio/flappybird.png",
+        "imageUrl": "flappybird.png",
         "demoUrl": "https://shanushka.github.io/js-projects/assignment-3/",
         "githubUrl": "https://github.com/shanushka/js-projects/tree/master/assignment-3",
         "technologies": ["Vanilla Javascript", "Html", "CSS", "2D Grid Map"],

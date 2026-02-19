@@ -5,11 +5,12 @@ import { faGithub, faLinkedin, faMedium } from "@fortawesome/free-brands-svg-ico
 import { faEye,faDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import Button from "../../components/Button";
-import Skill from "./Skills";
+import Skill from "../Skills";
 import Projects from "../Projects";
-import Experience from "./Experience";
-import Education from "./Education";
+import Experience from "../Experience";
+import Education from "../Education";
 import  {getResume} from "../../services/resume";
+import {asset} from "../../utils/path";
 
 function Home() {
   const skillRef = useRef(null);
@@ -70,7 +71,7 @@ function Home() {
   {
     var link = document.createElement("a");
     link.download = name;
-    link.href = "/portfolio/Resume.pdf";
+    link.href = asset("Resume.pdf");
     link.click();
   }
 
@@ -116,7 +117,7 @@ function Home() {
               make a better experience for the user.
             </p>
             <div className="home-btn-wrapper">
-              <Button iconType={faEye} type="primary" handleClick={() => {  window.open("/Resume.pdf", "_blank");}} title="Preview Resume"></Button>
+              <Button iconType={faEye} type="primary" handleClick={() => {  window.open(asset("Resume.pdf"), "_blank");}} title="Preview Resume"></Button>
               <Button iconType={faDownload} type="primary" handleClick={() => {downloadResume("Resume_Anushka_Shrestha")}} title="Download Resume"></Button>
             </div>
 
@@ -144,7 +145,7 @@ function Home() {
                 spinning.id === "skills" ? `spinning-zoom ${spinning.phase}` : ""
               }`}
             >
-              <img className="thumbpin" src="/portfolio/Logo/thumb-tack.png"/>
+              <img className="thumbpin" src={asset("Logo/thumb-tack.png")}/>
               <div className="box-content">Skills</div>
             </div>
 
@@ -154,7 +155,7 @@ function Home() {
                 spinning.id === "experience" ? `spinning-zoom ${spinning.phase}` : ""
               }`}
             >
-              <img className="thumbpin" src="/portfolio/Logo/thumb-tack.png"/>
+              <img className="thumbpin" src={asset("Logo/thumb-tack.png")}/>
               <div className="box-content">Experience</div>
             </div>
 
@@ -164,7 +165,7 @@ function Home() {
                 spinning.id === "project" ? `spinning-zoom ${spinning.phase}` : ""
               }`}
             >
-              <img className="thumbpin" src="/portfolio/Logo/thumb-tack.png"/>
+              <img className="thumbpin" src={asset("Logo/thumb-tack.png")}/>
               <div className="box-content">Personal Projects</div>
             </div>
             <div
@@ -173,7 +174,7 @@ function Home() {
                 spinning.id === "education" ? `spinning-zoom ${spinning.phase}` : ""
               }`}
             >
-              <img className="thumbpin" src="/portfolio/Logo/thumb-tack.png"/>
+              <img className="thumbpin" src={asset("Logo/thumb-tack.png")}/>
               <div className="box-content">Education</div>
             </div>
           </div>

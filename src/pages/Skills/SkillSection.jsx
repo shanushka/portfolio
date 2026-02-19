@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
 
+import {asset} from '../../utils/path';
+
 function SkillSection({ title, children }) {
     return (
         <div className="skills-column-section-wrapper">
-        <img className="skills-ivy-plant" src="/portfolio/ivy-plant.png"></img>
+        <img className="skills-ivy-plant" src={asset("ivy-plant.png")}></img>
             <div className="skills-column-section-title">{title}</div>
             <div className="skills-column-section">
             {children}
