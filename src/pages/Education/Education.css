@@ -1,3 +1,8 @@
+.education-section {
+    .page-column-header {
+        background-color: rgba(245, 190, 185, 0.5);
+        }
+}
 .education-card {
     padding: 20px;
     margin-bottom: 30px;
@@ -24,10 +29,10 @@
 .education-card-title {
     font-weight: bold;
     font-size: 28px;
+    padding: 12px 20px;
 }
 
 .certification-card {
-    padding: 20px;
     font-size: 16px;
     border-radius: 8px;
     margin-bottom: 30px;
@@ -55,4 +60,40 @@
 
 .education-card-subtitle {
     font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .certification-card {
+        min-width: 400px;
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: 290px;
+        }
+ 
+    }
+
+    .education-card-title {
+        font-size: 18px;
+    }
+    .education-section-body {
+        display: block;
+    }
+    .education-card {
+        padding: 12px;
+        font-size: 16px;
+        width: 95%;
+        min-width: 300px;
+    }
+    .education-card-title {
+        padding: 6px;
+    }
+    .education-section {
+        background-size: 80%;
+    }
+    .thumbpin {
+        width: 20px;
+        height: 20px;
+    }
 }

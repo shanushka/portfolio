@@ -63,15 +63,6 @@ body {
   object-fit: cover;
 }
 
-.home-btn-wrapper {
-  display: flex;
-  margin-bottom: 30px;
-
-  .btn {
-    margin-right: 12px;
-  }
-}
-
 .portfolio-block {
   margin-top: 24px;
 }

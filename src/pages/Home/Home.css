@@ -1,0 +1,43 @@
+.home-btn-wrapper {
+    display: flex;
+    margin-bottom: 30px;
+
+    .btn {
+        margin-right: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        padding: 0 1rem;
+    }
+    .home-btn-wrapper {
+        margin-bottom: 12px;
+    }
+    .portfolio-sub-header {
+        margin-top: 8px;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .portfolio-header {
+        font-size: 26px;
+    }
+    .portfolio-block {
+        display: flex;
+        gap:12px;
+        flex-wrap: wrap;
+        position: absolute;
+        bottom: 20px;
+    }
+    .box-content {
+        font-size: 18px;
+    }
+    .portfolio-main-body-left-content {
+        padding-left: 0;
+        font-size: 14px;
+    }
+    .portfolio-main-body-left {
+        display: block;
+        width: 82%;
+    }
+}

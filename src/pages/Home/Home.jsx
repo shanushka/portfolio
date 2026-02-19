@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faMedium } from "@fortawesome/free-brands-svg-icons";
 import { faEye,faDownload, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
+import './Home.css';
 import Button from "../../components/Button";
 import Skill from "../Skills";
 import Projects from "../Projects";
@@ -11,6 +12,7 @@ import Experience from "../Experience";
 import Education from "../Education";
 import  {getResume} from "../../services/resume";
 import {asset} from "../../utils/path";
+
 
 function Home() {
   const skillRef = useRef(null);
