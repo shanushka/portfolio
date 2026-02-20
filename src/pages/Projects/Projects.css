@@ -25,14 +25,11 @@
         height: 280px;
     }
 }
-
-
 .projects-section-body-container {
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
-
 .projects-section-body {
     display: flex;
     justify-content: center;
